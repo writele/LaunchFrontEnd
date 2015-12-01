@@ -1,0 +1,104 @@
+body {
+  background: url("/images/bg_body.gif")
+}
+
+/* LAYOUT */
+
+header, main, footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+header img {
+  display: block;
+  margin: 100px auto;
+}
+
+main {
+  background: #fff;
+}
+
+footer {
+  background: #e7e7e7;
+  min-height: 116px;
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+/* CONTENT POSITIONING */
+
+#about {
+  padding: 100px 100px 50px;
+}
+
+#founder {
+  padding: 50px 100px 100px;
+}
+
+
+/* TEXT */
+
+h1, h2, h3 {
+  font-family: "Avenir Heavy", "Lato", Arial, sans-serif;
+  font-weight: 700;
+  color: #45494d;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-family: "Avenir Medium", "Lato", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  color: #45494d;
+  text-align: center;
+}
+
+h3#tagline {
+  font-family: "Avenir Black", "Lato", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #3e98b2;
+}
+
+span {
+  padding: 5px 20px;
+  font-size: .7em;
+}
+
+/* SOCIAL MEDIA LINKS */
+footer ul {
+  list-style: none;
+  display: inline-block;
+  padding-top: 20px;
+}
+
+footer ul li a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-indent: -9999px;
+}
+
+#twitter {
+  background: url("icon_twitter.png") 0 0 no-repeat;
+  padding-left: 100px;
+}
+
+#facebook {
+  background: url("icon_facebook.png") 0 0 no-repeat;
+  padding-left: 50x;
+  padding-right: 100px;
+}
+
+#email {
+  background: url("icon_email.png") 0 0 no-repeat;
+  padding-left: 50px;
+}
+
+

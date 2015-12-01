@@ -1,0 +1,150 @@
+body > header,
+main,
+body > footer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2, p {
+  padding: 0 0 15px 0;
+  margin: 0;
+}
+
+article header {
+  margin: 0 0 15px 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+
+ul {
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  color: #0066cc;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav li {
+  display: inline-block;
+  width: 200px;
+  background: #ececec;
+  text-align: center;
+}
+
+#posts {
+  float: left;
+  width: 77%;
+  margin-right: 3%;
+}
+
+/* SIDEBAR */
+
+#sidebar {
+  float: right;
+  width: 20%;
+}
+
+#sidebar > ul:first-of-type {
+  text-align: center;
+}
+#sidebar > ul:first-of-type li {
+  display: inline;
+  padding: 0 5px;
+  line-height: 150%;
+}
+
+#sidebar ul {
+  padding-left: 1.2em;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  display: block;
+}
+
+label, input {
+  margin: 0 0 10px 0;
+}
+
+#sidebar > ul:last-of-type a {
+  display: block;
+  width: 24px;
+  height: 24px;
+  text-indent: -9999px;
+  background: url("social_media.png") 0 0 no-repeat;
+}
+
+#sidebar > ul:last-of-type li {
+  float: left;
+  list-style: none;
+}
+
+#sidebar > ul:last-of-type a.twitter {
+  background-position: 33% 0;
+}
+
+#sidebar > ul:last-of-type a.linkedin {
+  background-position: 66% 0;
+}
+
+#sidebar > ul:last-of-type a.instagram {
+  background-position: 100% 0;
+}
+
+
+/* POSTS */
+
+figure {
+  margin: 0 0 20px 0;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+}
+
+figcaption {
+  padding: 10px;
+  border: 1px solid rgb(204, 204, 204);
+  border-top: none;
+  font-style: italic;
+}
+
+time {
+  font-variant: small-caps;
+}
+
+blockquote {
+  padding: 15px 0 0 20px;
+  margin: 0 0 20px 20px;
+  font: italic 1.14em/150% Helvetica, Arial, sans-serif;
+  border-left: 4px solid #ececec;
+
+}
+
+/* FOOTER */
+
+footer {
+  padding: 15px;
+  font-size: .85em;
+  color: #acacac;
+  background: #181818;
+  clear: both;
+}
+footer p {
+  padding: 0;
+}
+
+/* CONTACT */
+
+/*a.facebook {
+  padding-left: 20px;
+  background: #f0f099 url("facebook.png") 0 0 / 16px no-repeat;
+}*/
+

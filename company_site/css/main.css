@@ -1,0 +1,147 @@
+body {
+  background: url("../images/bg_body.gif")
+}
+
+/* LAYOUT */
+
+header, main, footer, nav {
+  max-width: 1000px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+header img {
+  display: block;
+  margin: 100px auto;
+}
+
+main {
+  background: #fff;
+}
+
+footer {
+  background: #e7e7e7;
+  min-height: 300px;
+  text-align: center;
+}
+
+/* NAVIGATION */
+nav ul {
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 50px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-family: "Avenir Heavy", "Lato", Arial, sans-serif;
+  font-weight: 400;
+}
+
+nav ul li a {
+  text-decoration: none; 
+  color: #cacaca;
+}
+
+.active {
+  color: #6db9ff;
+  font-weight: 700;
+}
+
+/* CONTENT POSITIONING */
+
+#about {
+  padding: 100px 100px 50px;
+}
+
+#founder {
+  padding: 50px 100px 100px;
+}
+
+
+/* TEXT */
+
+h1, h2, h3 {
+  font-family: "Avenir Heavy", "Lato", Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #45494d;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-family: "Avenir Medium", "Lato", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  color: #45494d;
+  text-align: center;
+}
+
+h3#tagline {
+  font-family: "Avenir Black", "Lato", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #3e59b2;
+}
+
+span {
+  padding: 5px 20px;
+  font-size: .7em;
+}
+
+/* FOOTER */
+footer p {
+  color: #b2b2b2;
+  padding: 100px 250px;
+  display: inline-block;
+}
+/*
+footer ul {
+  list-style: none;
+  display: inline-block;
+  padding-top: 20px;
+}
+
+footer ul li a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+
+}*/
+
+footer ul a {
+  display: inline-block;
+  width: 47px;
+  height: 47px;
+  text-indent: -9999px;
+  background: url("../images/icons_social-media.png") no-repeat;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a.twitter {
+  background-position: 0 0;
+}
+
+footer ul li a.facebook {
+  background-position: 0 47px;
+}
+footer ul li a.email {
+  background-position: 0 94px;
+}
+footer ul li a.instagram {
+  background-position: 0 135px;
+}
+
+
